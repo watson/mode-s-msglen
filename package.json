@@ -1,6 +1,6 @@
 {
   "name": "mode-s-msglen",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A utility library for getting the message length of Mode S messages based on the downlink format",
   "main": "index.js",
   "dependencies": {},
@@ -34,5 +34,9 @@
   "bugs": {
     "url": "https://github.com/watson/mode-s-msglen/issues"
   },
-  "homepage": "https://github.com/watson/mode-s-msglen#readme"
+  "homepage": "https://github.com/watson/mode-s-msglen#readme",
+  "coordinates": [
+    55.7559948,
+    12.5653734
+  ]
 }
