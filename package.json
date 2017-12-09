@@ -1,6 +1,6 @@
 {
   "name": "mode-s-msglen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility library for getting the message length of Mode S messages based on the downlink format",
   "main": "index.js",
   "dependencies": {},
