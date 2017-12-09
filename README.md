@@ -17,7 +17,13 @@ npm install mode-s-msglen --save
 ```js
 const msglen = require('mode-s-msglen')
 
-let msgbits = msglen(17)
+const msgbits = msglen(17)
+
+if (msgbits === msglen.LONG_MSG_BITS) {
+  console.log('This is a long message')
+} else {
+  console.log('This is a short message')
+}
 ```
 
 ## API
