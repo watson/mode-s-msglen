@@ -12,6 +12,14 @@ based on the downlink format.
 npm install mode-s-msglen --save
 ```
 
+## Usage
+
+```js
+const msglen = require('mode-s-msglen')
+
+let msgbits = msglen(17)
+```
+
 ## API
 
 ### Constants
@@ -19,7 +27,7 @@ npm install mode-s-msglen --save
 - `LONG_MSG_BITS`
 - `SHORT_MSG_BITS`
 
-### `len = init(type)`
+### `len = msglen(type)`
 
 Given the Downlink Format (DF) of the Mode S message, return the message
 length in bits.
