@@ -1,0 +1,38 @@
+{
+  "name": "mode-s-msglen",
+  "version": "0.0.0",
+  "description": "A utility library for getting the message length of Mode S messages based on the downlink format",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/mode-s-msglen.git"
+  },
+  "keywords": [
+    "modes",
+    "mode-s",
+    "ads-b",
+    "rtlsdr",
+    "rtl-sdr",
+    "librtlsdr",
+    "sdr",
+    "radio",
+    "1090",
+    "1090mhz",
+    "airplane",
+    "airplanes",
+    "plane"
+  ],
+  "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/mode-s-msglen/issues"
+  },
+  "homepage": "https://github.com/watson/mode-s-msglen#readme"
+}
