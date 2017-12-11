@@ -17,17 +17,18 @@
   "keywords": [
     "modes",
     "mode-s",
+    "adsb",
     "ads-b",
+    "sdr",
     "rtlsdr",
     "rtl-sdr",
-    "librtlsdr",
-    "sdr",
     "radio",
-    "1090",
-    "1090mhz",
+    "aircraft",
     "airplane",
     "airplanes",
-    "plane"
+    "plane",
+    "1090",
+    "1090mhz"
   ],
   "author": "Thomas Watson <w@tson.dk> (https://twitter.com/wa7son)",
   "license": "MIT",
