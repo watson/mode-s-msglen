@@ -3,6 +3,13 @@
 A utility library for getting the message length of Mode S messages
 based on the downlink format.
 
+Mode S is an aviation transponder interrogation mode used by Secondary
+Surveillance Radar (SSR) and Automatic Dependent Surveillance-Broadcast
+(ADS-B) systems.
+
+For an example of this module in use, see
+[AirplaneJS](https://github.com/watson/airplanejs).
+
 [![Build status](https://travis-ci.org/watson/mode-s-msglen.svg?branch=master)](https://travis-ci.org/watson/mode-s-msglen)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
