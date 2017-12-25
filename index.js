@@ -9,13 +9,12 @@ msgLen.LONG_MSG_BITS = LONG_MSG_BITS
 msgLen.SHORT_MSG_BITS = SHORT_MSG_BITS
 
 // Given the Downlink Format (DF) of the message, return the message length in
-// bits
+// bits.
+//
+// All known DF's 16 or greater are long. All known DF's 15 or less are short.
+// There are lots of unused codes in both category, so we can assume ICAO will
+// stick to these rules, meaning that the most significant bit of the DF
+// indicates the length.
 function msgLen (type) {
-  if (type === 16 || type === 17 ||
-      type === 19 || type === 20 ||
-      type === 21) {
-    return LONG_MSG_BITS
-  } else {
-    return SHORT_MSG_BITS
-  }
+  return (type & 0x10) ? LONG_MSG_BITS : SHORT_MSG_BITS
 }
